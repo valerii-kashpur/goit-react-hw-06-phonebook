@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
-import { editFilter } from "../Redux/actions/filter";
+// import { editFilter } from "../Redux/actions/filter";
+import { editFilter } from "../ReduxToolkit/toolkitActions/filter";
 
 const INPUT = styled.input`
   width: 260px;

@@ -7,7 +7,8 @@ import styled from "styled-components";
 import transition from "styled-transition-group";
 import FilterContainer from "../StyledComponents/FilterContainer";
 import { useSelector, useDispatch } from "react-redux";
-import { addItem, deleteItem, setItems } from "../Redux/actions/contacts";
+// import { addItem, deleteItem, setItems } from "../Redux/actions/contacts";
+import { addItem, deleteItem, setItems } from "../ReduxToolkit/toolkitActions/contacts";
 
 const Container = styled.div`
   max-width: 300px;
