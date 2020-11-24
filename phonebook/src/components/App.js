@@ -134,7 +134,7 @@ const App = () => {
           contacts={contacs}
           setError={getError}
         />
-        <FilterContainer in={contacs.length > 1}>
+        <FilterContainer in={contacs.length > 0}>
           <Filter />
         </FilterContainer>
         <ContactList filterFN={filterFN} onRemove={removeContact} />
