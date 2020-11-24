@@ -2,7 +2,6 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import ContactListItem from "./ContactListItem";
 import styled from "styled-components";
-import PropTypes from "prop-types";
 import LI from "../StyledComponents/Item";
 import { TransitionGroup } from "react-transition-group";
 
@@ -35,8 +34,3 @@ const ContactList = ({ filterFN, onRemove }) => {
 };
 
 export default ContactList;
-
-ContactList.propTypes = {
-  filterFN: PropTypes.func.isRequired,
-  onRemove: PropTypes.func.isRequired,
-};
