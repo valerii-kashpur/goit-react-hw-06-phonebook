@@ -107,7 +107,8 @@ const App = () => {
       contact.name.toLocaleLowerCase().includes(filterValue.toLocaleLowerCase())
     );
 
-    return filtered.length > 0 ? filtered : contacs;
+    // return filtered.length > 0 ? filtered : contacs;
+    return filtered;
   };
 
   const getError = (bool, name) => {
